@@ -15,7 +15,7 @@ class Collection extends React.Component {
   };
 
   state = {
-    viewStyle: VIEW_STYLE_LIST,
+    viewStyle: VIEW_STYLE_GRID,
   };
 
   renderEntriesCollection = () => {

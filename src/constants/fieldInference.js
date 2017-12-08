@@ -37,7 +37,7 @@ export const INFERABLE_FIELDS = {
   image: {
     type: 'image',
     secondaryTypes: [],
-    synonyms: ['image', 'thumbnail', 'thumb', 'picture', 'avatar', 'photo'],
+    synonyms: ['image', 'thumbnail', 'thumb', 'picture', 'avatar', 'photo', 'poster'],
     defaultPreview: value => value,
     fallbackToFirstField: false,
     showError: false,

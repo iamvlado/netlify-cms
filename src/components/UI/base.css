@@ -3,16 +3,18 @@
    * Font Stacks
    */
   --fontFamilyPrimary:
+    "PT Sans Caption",
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
     Roboto,
-    Helvetica,
-    Arial,
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
 
   --fontFamilyMono:
     'SFMono-Regular',
@@ -29,6 +31,7 @@
   --colorGrayLight: #eff0f4;
   --colorGray: #798291;
   --colorGrayDark: #313d3e;
+  --colorGreenLight: #caef6f;
   --colorBlue: #3a69c7;
   --colorBlueLight: #e8f5fe;
   --colorGreen: #005614;
@@ -334,4 +337,98 @@ img {
 
 textarea {
   resize: none;
+}
+
+.vvv__Page {
+  padding: 30px;
+}
+
+.vvv__Cover > img {
+  display: block;
+  max-width: 1115px;
+  width: 100%;
+  height: auto;
+}
+
+.vvv__Title {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.vvv__P {
+  margin: 30px auto 0;
+  max-width: 740px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.vvv__Preview {
+  margin: auto;
+  max-width: 261px;
+  width: 100%;
+  background: #F5F5F5;
+}
+
+.vvv__Preview > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.lead {
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 4px solid #44484A;
+  border-bottom: 4px solid #44484A;
+}
+
+.vvv__Lead {
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 4px solid #44484A;
+  border-bottom: 4px solid #44484A;
+}
+
+.vvv__Photos {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  padding: 30px 20px;
+  border-top: 4px solid #44484A;
+  border-bottom: 4px solid #44484A;
+}
+
+.vvv__Photos > div {
+  max-width: 655px;
+  width: 100%;
+}
+
+.vvv__Photos > div > img {
+  width: 100%;
+  height: auto;
+}
+
+.video {
+  margin: 30px auto;
+  max-width: 740px;
+  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.20);
+}
+
+.youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.youtube iframe,
+.youtube object,
+.youtube embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }

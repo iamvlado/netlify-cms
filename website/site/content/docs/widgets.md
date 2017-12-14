@@ -99,7 +99,7 @@ The file widget allows editors to upload a file or select an existing one from t
 
   ```yaml
   - label: "Manual PDF"
-    **Name:** "manual_pdf"
+    name: "manual_pdf"
     widget: "file"
     default: "/uploads/general-manual.pdf"
   ```
@@ -281,8 +281,8 @@ The select widget allows you to pick a single string value from a dropdown menu.
 - **Options:**
   - `default`: accepts a string; defaults to an empty string
   - `options`: (**required**) a list of options for the dropdown menu; can be listed in two ways:
-    - string values: the label displayed in the dropdown is the value saved in the file
-    - object with `label` and `value` fields: the label displays in the dropdown; the value is saved in the file
+      - string values: the label displayed in the dropdown is the value saved in the file
+      - object with `label` and `value` fields: the label displays in the dropdown; the value is saved in the file
 - **Example** (options as strings):
 
   ```yaml

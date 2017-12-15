@@ -16,6 +16,7 @@ const EntryCard = ({
 }) => {
   const label = entry.get('label');
   const title = label || entry.getIn(['data', inferedFields.titleField]);
+  const date = entry.getIn(['data', 'date']);
   const path = `/collections/${collection.get('name')}/entries/${entry.get('slug')}`;
   let image = entry.getIn(['data', inferedFields.imageField]);
   image = resolvePath(image, publicFolder);
@@ -27,6 +28,7 @@ const EntryCard = ({
     return (
       <Link to={path} className="nc-entryListing-listCard">
         <h2 className="nc-entryListing-listCard-title">{title}</h2>
+        <date>{new Date(date).toLocaleDateString("ru")}</date>
       </Link>
     );
   }
@@ -36,6 +38,7 @@ const EntryCard = ({
       <Link to={path} className="nc-entryListing-gridCard">
         <div className={c('nc-entryListing-cardBody', { 'nc-entryListing-cardBody-full': !image })}>
           <h2 className="nc-entryListing-cardHeading">{title}</h2>
+          <date>{new Date(date).toLocaleDateString("ru")}</date>
         </div>
         {
           image

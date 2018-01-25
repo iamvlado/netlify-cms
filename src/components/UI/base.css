@@ -331,16 +331,7 @@ button {
   }
 }
 
-img {
-  max-width: 100%;
-}
-
-textarea {
-  resize: none;
-}
-
 .vvv__Page {
-  padding: 30px;
 }
 
 .vvv__Cover > img {
@@ -351,16 +342,11 @@ textarea {
 }
 
 .vvv__Title {
-  font-size: 22px;
-  line-height: 24px;
+  padding: 20px 30px;
 }
 
 .vvv__P {
-  margin: 30px auto 0;
-  max-width: 740px;
-  width: 100%;
-  font-size: 18px;
-  line-height: 30px;
+  padding: 20px 30px;
 }
 
 .vvv__Preview {
@@ -376,18 +362,7 @@ textarea {
   height: auto;
 }
 
-.lead {
-  padding: 30px 20px;
-  text-align: center;
-  border-top: 4px solid #44484A;
-  border-bottom: 4px solid #44484A;
-}
-
 .vvv__Lead {
-  padding: 30px 20px;
-  text-align: center;
-  border-top: 4px solid #44484A;
-  border-bottom: 4px solid #44484A;
 }
 
 .vvv__Photos {
